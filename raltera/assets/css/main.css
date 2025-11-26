@@ -1375,7 +1375,7 @@ section,
 }
 
 .pricing .featured {
-  border-top-color: var(--accent-color);
+  border-top-color: var(--light-blue-color);
 }
 
 .pricing .featured .buy-btn {
