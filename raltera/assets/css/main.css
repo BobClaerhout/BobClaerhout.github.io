@@ -1384,6 +1384,10 @@ section,
   border-top-color: var(--light-blue-color);
 }
 
+.pricing .featured-yellow {
+  border-top-color: var(--accent-color);
+}
+
 .pricing .featured .buy-btn {
   background: var(--accent-color);
   color: var(--contrast-color);
