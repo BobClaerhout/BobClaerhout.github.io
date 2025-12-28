@@ -585,7 +585,7 @@ b{font-weight:800;}
 }
 
 .footer .footer-about a {
-  color: var(--heading-color);
+  /* color: var(--heading-color); */
   font-size: 24px;
   font-weight: 600;
   font-family: var(--heading-font);
@@ -593,6 +593,11 @@ b{font-weight:800;}
 
 .footer .footer-contact p {
   margin-bottom: 5px;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+}
+
+.footer .footer-about .footer-contact a {
+  font-size: 13px;
 }
 
 .footer .copyright {
@@ -1054,7 +1059,7 @@ section,
   content: "";
   height: 30px;
   width: 30px;
-  background: color-mix(in srgb, var(--accent-color), transparent 70%);
+  background: color-mix(in srgb, var(--light-blue-color), transparent 70%);
   border-radius: 50px;
   z-index: 1;
   bottom: -15px;
@@ -1345,7 +1350,7 @@ section,
 }
 
 .pricing ul i {
-  color: #059652;
+  color: var(--light-blue-color); /* #059652; */
   font-size: 24px;
   padding-right: 3px;
 }
